@@ -1,64 +1,69 @@
-[11Jun2025 14:01:51.358] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[11Jun2025 14:01:51.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
-[11Jun2025 14:01:51.361] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[11Jun2025 14:01:51.441] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/brotherhoodHMC/servidor_minecraft/config/fml.toml is not correct. Correcting
-[11Jun2025 14:01:51.443] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[11Jun2025 14:01:51.444] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[11Jun2025 14:01:51.444] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[11Jun2025 14:01:51.445] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[11Jun2025 14:01:51.457] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[11Jun2025 14:01:51.562] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/brotherhoodHMC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[11Jun2025 14:01:51.779] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[11Jun2025 14:01:52.765] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[11Jun2025 14:01:58.130] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 55.0.21, for MC 1.21.5 with MCP 20250325.155543
-[11Jun2025 14:01:58.130] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v55.0.21 Initialized
-[11Jun2025 14:01:58.142] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[11Jun2025 14:01:58.357] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/brotherhoodHMC/servidor_minecraft/config/forge-common.toml is not correct. Correcting
-[11Jun2025 14:01:58.359] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
-[11Jun2025 14:01:58.359] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. 
-[11Jun2025 14:01:58.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jun2025 14:01:59.114] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 55.0.21 Target: 55.0.23
-[11Jun2025 14:01:59.677] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11Jun2025 14:02:00.605] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
-[11Jun2025 14:02:01.436] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1373 recipes
-[11Jun2025 14:02:01.456] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1484 advancements
-[11Jun2025 14:02:01.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.5
-[11Jun2025 14:02:01.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jun2025 14:02:01.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jun2025 14:02:01.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jun2025 14:02:01.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jun2025 14:02:01.805] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jun2025 14:02:01.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11Jun2025 14:02:01.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[11Jun2025 14:02:01.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11Jun2025 14:02:01.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[11Jun2025 14:02:01.908] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[11Jun2025 14:02:01.910] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
-[11Jun2025 14:02:01.910] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[11Jun2025 14:02:01.911] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[11Jun2025 14:02:01.911] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[11Jun2025 14:02:01.912] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[11Jun2025 14:02:01.912] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[11Jun2025 14:02:01.982] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11Jun2025 14:02:07.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jun2025 14:02:07.365] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[11Jun2025 14:02:07.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[11Jun2025 14:02:08.334] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[11Jun2025 14:02:08.815] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[11Jun2025 14:02:09.369] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[11Jun2025 14:02:09.842] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[11Jun2025 14:02:10.329] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[11Jun2025 14:02:10.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[11Jun2025 14:02:11.007] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3693 ms
-[11Jun2025 14:02:11.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.102s)! For help, type "help"
-[11Jun2025 14:02:11.036] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jun2025 14:02:49.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[11Jun2025 14:02:49.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[11Jun2025 14:02:49.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[11Jun2025 14:02:50.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11Jun2025 14:02:51.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11Jun2025 14:02:51.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11Jun2025 14:02:51.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11Jun2025 14:02:51.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11Jun2025 14:02:51.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11Jun2025 14:02:51.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11Jun2025 14:53:49.700] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[11Jun2025 14:53:49.702] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
+[11Jun2025 14:53:49.702] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[11Jun2025 14:53:49.798] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[11Jun2025 14:53:49.893] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/brotherhoodHMC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[11Jun2025 14:53:50.180] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[11Jun2025 14:53:51.560] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Jun2025 14:53:51.574] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[11Jun2025 14:53:51.583] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[11Jun2025 14:53:51.619] [main/WARN] [mixin/]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jun2025 14:53:51.621] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jun2025 14:53:51.623] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jun2025 14:53:51.625] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jun2025 14:53:51.788] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.SalmonRenderer)
+[11Jun2025 14:53:51.789] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererInvoker
+[11Jun2025 14:53:57.580] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[11Jun2025 14:53:57.603] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 55.0.21, for MC 1.21.5 with MCP 20250325.155543
+[11Jun2025 14:53:57.604] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v55.0.21 Initialized
+[11Jun2025 14:53:57.632] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[11Jun2025 14:53:58.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Jun2025 14:53:58.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 55.0.21 Target: 55.0.23
+[11Jun2025 14:53:58.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_ly_graves] Starting version check at https://api.modrinth.com/updates/kieAM9Us/forge_updates.json
+[11Jun2025 14:53:58.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_ly_graves] Found status: AHEAD Current: 1-v2.3.2 Target: null
+[11Jun2025 14:53:58.774] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tpa] Starting version check at https://api.modrinth.com/updates/6h6n9XJ9/forge_updates.json
+[11Jun2025 14:53:58.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tpa] Found status: UP_TO_DATE Current: 1.3.1 Target: null
+[11Jun2025 14:53:58.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[11Jun2025 14:53:59.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: BETA_OUTDATED Current: 1.21.5-1.4.10 Target: 1.21.5-1.4.12
+[11Jun2025 14:53:59.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.5&ml=forge
+[11Jun2025 14:53:59.154] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11Jun2025 14:53:59.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 23.0.0.1 Target: 23.0.0.1
+[11Jun2025 14:53:59.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[11Jun2025 14:53:59.533] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.5-6.0.0-beta.48 Target: 1.21.5-6.0.0-beta.45
+[11Jun2025 14:54:02.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1373 recipes
+[11Jun2025 14:54:02.078] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1487 advancements
+[11Jun2025 14:54:02.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.5
+[11Jun2025 14:54:02.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Jun2025 14:54:02.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Jun2025 14:54:02.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Jun2025 14:54:02.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Jun2025 14:54:02.370] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Jun2025 14:54:02.410] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Jun2025 14:54:02.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Jun2025 14:54:02.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Jun2025 14:54:02.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Jun2025 14:54:02.422] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Jun2025 14:54:02.460] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Jun2025 14:54:02.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Jun2025 14:54:05.113] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2025 14:54:05.114] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2025 14:54:05.115] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2025 14:54:05.116] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2025 14:54:05.116] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2025 14:54:05.289] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2494 ms
+[11Jun2025 14:54:05.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.869s)! For help, type "help"
+[11Jun2025 14:54:05.316] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Jun2025 14:54:05.320] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[11Jun2025 14:54:05.321] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@41100e77 for service interface journeymap.api.services.ClientPlatformService
+[11Jun2025 14:54:05.323] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@4dfd5e04 for service interface journeymap.api.services.CommonPlatformService
+[11Jun2025 14:54:09.912] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4496ms or 89 ticks behind
+[11Jun2025 14:54:21.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Jun2025 14:54:21.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Jun2025 14:54:21.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Jun2025 14:54:21.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11Jun2025 14:54:23.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11Jun2025 14:54:23.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11Jun2025 14:54:23.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Jun2025 14:54:23.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Jun2025 14:54:23.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Jun2025 14:54:23.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
